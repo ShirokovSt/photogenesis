@@ -1,0 +1,20 @@
+{
+  "name": "photogenesis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Песочница, в которой свет рождает материю",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:single": "tsc --noEmit && vite build --mode single",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vite-plugin-singlefile": "^2.3.4",
+    "vitest": "^5.0.5"
+  }
+}

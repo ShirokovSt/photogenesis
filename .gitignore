@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-single/
+*.log
+
+# IDE settings
+.idea/
+
+# Local assistant files, not part of the project
+CLAUDE.md
+.claude/
